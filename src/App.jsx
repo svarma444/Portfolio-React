@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Highlights from './components/Highlights';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Timeline from './components/Timeline';
 import { useState,useEffect } from 'react';
 
 export default function App() {
@@ -32,6 +33,7 @@ export default function App() {
       <div className="grid">
         <main>
           <Highlights />
+          <Timeline />
           <Projects onSelect={setSelectedProject} />      
           {selectedProject && (
             <div className="modal"
