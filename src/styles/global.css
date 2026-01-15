@@ -34,6 +34,7 @@ body {
   gap: 22px;
 }
 
+/*Header text related styles*/
 header {
   display: flex;
   align-items: center;
@@ -42,13 +43,42 @@ header {
   margin-bottom: 26px;
 }
 
-.header-row{
-  display: flex;
+.header-name {
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
 }
 
-.download-btn {
-  background: #e6eef6;
+.header-title {
+  color: #fff;
+  font-size: 1rem;
+  margin: 6px 0 0 0;
+  font-weight: 500;
+  opacity: 0.8;
 }
+
+/* .header-row{
+  display: flex;
+  width: 100%;
+}
+
+.btnsection{
+  margin-left: auto;
+} */
+
+/* download button related styles */
+.download-btn {
+  color: #e6eef6;
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover svg {
+  color: var(--accent);
+  transform: translateY(2px);
+  filter: drop-shadow(0 0 8px var(--accent));
+}
+
 
 .avatar {
   width: 72px;
