@@ -1,33 +1,35 @@
-export default function Highlights(){
-  return( 
-     <section className="card">
-        <h2>About</h2>
+export default function Highlights() {
+  return (
+    <section className="card">
+      <h2>About</h2>
 
-        <p className="bio">
+      <p className="bio">
         Software Engineer specializing in C++, C#, SQL, CAD Integrations and PLM workflow engineering.
         Experienced in system optimization, multi-threaded components, and resolving complex defects through deep
         debugging and data-level analysis, with a strong ability to quickly grasp new requirements and adapt to
         evolving project needs.
-        </p>
+      </p>
 
-        <div className="stats">
-          <div className="stat">
-            <strong>5</strong>
-            <span>Years Experience</span>
-          </div>
+      <div className="stats">
 
-          <div className="stat">
-            <strong>10+</strong>
-            <span>Projects Delivered</span>
-          </div>
-
-          <div className="stat">
-            <strong>3</strong>
-            <span>Tech Stacks</span>
-          </div>
+        <div className="stat">
+          <strong>5</strong>
+          <span>Years Experience</span>
         </div>
 
-     </section>
+        <div className="stat">
+          <strong>10+</strong>
+          <span>Projects Delivered</span>
+        </div>
+
+        <div className="stat">
+          <strong>3</strong>
+          <span>Tech Stacks</span>
+        </div>
+
+      </div>
+
+    </section>
   );
 }
 

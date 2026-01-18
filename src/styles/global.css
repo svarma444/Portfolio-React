@@ -1,22 +1,25 @@
 :root {
-  --bg:#0f1724;
-  --card:#0b1220;
-  --muted:#9aa4b2;
-  --accent:#6ee7b7;
-  --glass: rgba(255,255,255,0.03);
-  --maxw:1100px;
+  --bg: #0f1724;
+  --card: #0b1220;
+  --muted: #9aa4b2;
+  --accent: #6ee7b7;
+  --glass: rgba(255, 255, 255, 0.03);
+  --maxw: 1100px;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
-html, body {
-   min-height: 100%;
+html,
+body {
+  min-height: 100%;
 }
 
 body {
   margin: 0;
   font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
-  background: linear-gradient(180deg,#071025 0%, #07162a 60%);
+  background: linear-gradient(180deg, #071025 0%, #07162a 60%);
   color: #e6eef6;
   padding: 32px 20px;
 }
@@ -94,7 +97,7 @@ header {
   width: 72px;
   height: 72px;
   border-radius: 40px;
-  background: linear-gradient(135deg,#1f2937,#0b1220);
+  background: linear-gradient(135deg, #1f2937, #0b1220);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,15 +109,15 @@ header {
 /*Highlights related styles*/
 
 .card {
-  background: linear-gradient(
-    180deg,
-    rgba(255,255,255,0.02),
-    rgba(255,255,255,0.01)
-  );
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.02),
+      rgba(255, 255, 255, 0.01));
   border-radius: 12px;
   padding: 18px;
   border: 1px solid rgba(228, 23, 23, 0.03);
-  box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);
+  margin-bottom: 10px;
+
 }
 
 /*About related stylings*/
@@ -188,6 +191,24 @@ header {
   color: var(--muted);
 } */
 
+/*education styles*/
+
+.education-item h4 {
+  margin: 0 0 4px 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.education-item .period {
+  display: inline-block;
+  /*learn*/
+  margin-top: 6px;
+  font-size: 12px;
+  color: #fff;
+}
+
+
 /*skills related styles*/
 .skills {
   display: grid;
@@ -235,12 +256,10 @@ header {
 .proj {
   padding: 14px;
   border-radius: 10px;
-  background: linear-gradient(
-    180deg,
-    rgba(255,255,255,0.015),
-    transparent
-  );
-  border: 1px solid rgba(255,255,255,0.02);
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.015),
+      transparent);
+  border: 1px solid rgba(255, 255, 255, 0.02);
 }
 
 .proj h4 {
@@ -285,7 +304,8 @@ header {
 }
 
 /*timeline related styling*/
-.timeline {
+
+/* .timeline {
   position: relative;
   margin-top: 16px;
 }
@@ -297,7 +317,7 @@ header {
   top: 0;
   bottom: 0;
   width: 2px;
-  background: rgba(255,255,255,0.08);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .timeline-item {
@@ -320,24 +340,40 @@ header {
 .timeline-content h4 {
   margin: 0;
   font-size: 16px;
-  color:#fff;
+  color: #fff;
 }
 
 .timeline-period {
   font-size: 13px;
   color: #fff;
+} */
+
+.experience-grid {
+  display: grid;
+  gap: 12px;
+  margin-top: 12px;
 }
 
+.experience-card {
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 8px;
+  border-left: 3px solid var(--accent);
+}
 
+.period {
+  font-size: 12px;
+  color: var(--accent);
+  font-weight: 600;
+}
 
+.experience-card h4 {
+  margin: 6px 0 4px 0;
+  font-size: 15px;
+  color: #fff;
+}
 
-
-
-
-
-
-
-
-
-
-
+.company {
+  font-size: 13px;
+  color: var(--muted);
+}
