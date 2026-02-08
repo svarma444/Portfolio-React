@@ -37,15 +37,60 @@ export default function App() {
           {selectedProject && (
             <div className="modal"
               onClick={() => { setSelectedProject(null) }}>
+
               <div onClick={(e) => e.stopPropagation()}>
                 <button className="modal-close"
                   onClick={() => {
                     setSelectedProject(null)
                   }}
                 >🗙</button>
-                <h3>{selectedProject.title}</h3>
-                <p className="small">{selectedProject.details}</p>
+                <h2>{selectedProject.title}</h2>
+
+                <div className="modal-section">
+
+                  <ul className="modal-list">
+                    {selectedProject.details.split(':').filter(point => point.trim()).map((point, i) => (
+                      <li key={i}>{point.trim()}</li>
+                    ))}
+                  </ul>
+
+                  <h3>Impact</h3>
+                  <div className="proj-click-details">
+                    <p>{selectedProject.impact}</p>
+                  </div>
+
+                  <div className="tech-pills-container">
+
+                    {selectedProject.techStack.languages?.length > 0 && (
+                      <div className="tech-pill-group">
+                        <span className="tech-label">Languages</span>
+                        <div className="tech-pills">
+                          {selectedProject.techStack.languages.map((lang, i) => (
+                            <span key={i} className="tech-pill">{lang}</span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {selectedProject.techStack.languages?.length > 0 && (
+                      <div className="tech-pill-group">
+                        <span className="tech-label">Frameworks</span>
+                        <div className="tech-pills">
+                          {selectedProject.techStack.frameworks.map((fw, i) => (
+                            <span key={i} className="tech-pill">{fw}</span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+
+                  </div>
+
+
+                </div>
               </div>
+
+
             </div>
           )}
         </main>
@@ -54,7 +99,24 @@ export default function App() {
           <Education />
           <Skills />
         </aside>
-      </div>
-    </div>
+      </div >
+    </div >
   );
 }
+
+{/* <ul className="modal-list">
+  {selectedProject.details.split('.').filter(point => point.trim()).map((point, i) => (
+    <li key={i}>{point.trim()}</li>
+  ))}
+</ul> */}
+
+{/* <div onClick={(e) => e.stopPropagation()}>
+  <button className="modal-close"
+    onClick={() => {
+      setSelectedProject(null)
+    }}
+  >🗙</button>
+  <h2>{selectedProject.title}</h2>
+  <strong>Project Overview : </strong>
+  <p className="small">{selectedProject.details}</p>
+</div> */}

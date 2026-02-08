@@ -1,10 +1,10 @@
-export default function Skills(){
-    return(
+export default function Skills() {
+    return (
         <div className="card">
             <h2>Skills</h2>
 
             <div className="skills">
-                
+
                 <div className="skill">
                     <strong>Languages</strong>
                     <div className="small">C++, C#, SQL, JS, React</div>
@@ -17,12 +17,12 @@ export default function Skills(){
 
                 <div className="skill">
                     <strong>Tools</strong>
-                    <div className="small">Git, VS Code</div>
+                    <div className="small">Git,SVN,JIRA,Eclipse</div>
                 </div>
 
                 <div className="skill">
                     <strong>PLM / CAD</strong>
-                    <div className="small">Teamcenter, Windchill, Creo</div>
+                    <div className="small">PTC Creo, Infor PLM</div>
                 </div>
 
             </div>
