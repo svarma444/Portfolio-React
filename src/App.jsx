@@ -72,7 +72,7 @@ export default function App() {
                       </div>
                     )}
 
-                    {selectedProject.techStack.languages?.length > 0 && (
+                    {selectedProject.techStack.frameworks?.length > 0 && (
                       <div className="tech-pill-group">
                         <span className="tech-label">Frameworks</span>
                         <div className="tech-pills">
