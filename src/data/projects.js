@@ -8,7 +8,7 @@ export const projects = [
     details: 'Integrated Infor PLM Cloud with Microsoft applications by leveraging Microsoft APIs to enable seamless saving of Office files (Word, Excel, PowerPoint) from OneDrive to PLM Cloud. : Developed batch register functionality to efficiently upload and manage large volumes of files through Microsoft APIs.',
     techStack: {
       languages: ['C++', 'C#'],
-      frameworks: ['.NET'],
+      frameworks: [],
       apis: ['Microsoft Graph API', 'OneDrive API'],
       platform: ['Infor PLM Cloud'],
       tools: ['Visual Studio', 'Git', 'REST']
@@ -23,7 +23,7 @@ export const projects = [
     details: 'Designed and implemented logic in the CAD Integration toolkit to support updating Custom Defined Fields (CDFs) during data save from CAD. Modified both integration-layer code and server-side save logic to ensure CDF data was stored along with standard fields.: Enhanced database table structures and workflows to persist custom field values in their respective tables, enabling seamless ERP–CAD synchronization and supporting customer-specific configurations.',
     techStack: {
       languages: ['C++', 'C#', 'SQL', '4GL'],
-      frameworks: ['.NET'],
+      frameworks: [],
       apis: [],
       platform: ['Infor PLM Cloud'],
       tools: ['Visual Studio', 'Git', 'Eclipse']
@@ -38,7 +38,7 @@ export const projects = [
     details: 'Optimized CAD–PLM integration workflows by enhancing multi-threaded Toolkit and server-side logic. : Designed and implemented JSON-based request handling to coordinate multiple interlinked database save operations. : Used concurrency techniques including request orchestration, synchronization, and multi-threading to provide high performance, fault tolerance, and dependable large-scale data processing in Infor PLM Cloud..',
     techStack: {
       languages: ['C++', 'C#', 'SQL', '4GL'],
-      frameworks: ['.NET'],
+      frameworks: [],
       apis: [],
       platform: ['Infor PLM Cloud'],
       tools: ['Visual Studio', 'Git', 'Eclipse']
@@ -67,7 +67,7 @@ export const projects = [
     impact: 'Ensured successful customer go-lives by delivering complex, mission-critical requirements under tight deadlines, while supporting multiple Creo versions and integrating diverse design, variant, and model data into PLM based on customer needs.',
     details: 'Implemented variant-aware save workflows to manage multiple design configurations synched with generic design. :Migrated integration APIs from Creo v8 to v9+ by refactoring core functionalities and adapting to new frameworks.:Developed several integration logics to connect assembly data, geometry information, and design variants with PLM systems, while analyzing Creo-specific behavior to optimize processing for improved performance and stability.',
     techStack: {
-      languages: ['C++'],
+      languages: ['C++', 'PTC Toolkit'],
       frameworks: [],
       apis: ['Creo Paramteric Toolkit'],
       platform: ['Infor PLM Cloud'],

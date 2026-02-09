@@ -33,7 +33,7 @@ export default function App() {
         <main>
           <Highlights />
           <Timeline />
-          <Projects onSelect={setSelectedProject} />
+
           {selectedProject && (
             <div className="modal"
               onClick={() => { setSelectedProject(null) }}>
@@ -63,7 +63,7 @@ export default function App() {
 
                     {selectedProject.techStack.languages?.length > 0 && (
                       <div className="tech-pill-group">
-                        <span className="tech-label">Languages</span>
+                        <span className="tech-label">Tech</span>
                         <div className="tech-pills">
                           {selectedProject.techStack.languages.map((lang, i) => (
                             <span key={i} className="tech-pill">{lang}</span>
@@ -71,18 +71,6 @@ export default function App() {
                         </div>
                       </div>
                     )}
-
-                    {selectedProject.techStack.frameworks?.length > 0 && (
-                      <div className="tech-pill-group">
-                        <span className="tech-label">Frameworks</span>
-                        <div className="tech-pills">
-                          {selectedProject.techStack.frameworks.map((fw, i) => (
-                            <span key={i} className="tech-pill">{fw}</span>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-
 
                   </div>
 
@@ -100,6 +88,7 @@ export default function App() {
           <Skills />
         </aside>
       </div >
+      <Projects onSelect={setSelectedProject} />
     </div >
   );
 }
@@ -120,3 +109,14 @@ export default function App() {
   <strong>Project Overview : </strong>
   <p className="small">{selectedProject.details}</p>
 </div> */}
+
+{/* {selectedProject.techStack.frameworks?.length > 0 && (
+                      <div className="tech-pill-group">
+                        <span className="tech-label">Frameworks</span>
+                        <div className="tech-pills">
+                          {selectedProject.techStack.frameworks.map((fw, i) => (
+                            <span key={i} className="tech-pill">{fw}</span>
+                          ))}
+                        </div>
+                      </div>
+                    )} */}

@@ -2,7 +2,7 @@ import { projects } from '../data/projects';
 
 export default function Projects({ onSelect }) {
   return (
-    <section className="card">
+    <section id="projects" className="card">
 
       <h2>Featured Projects</h2>
 

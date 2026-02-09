@@ -9,7 +9,11 @@ export default function Header() {
                 </p> */}
 
                 <div>
-                    <h1 className="header-name">Swapnith Varma</h1>
+                    
+                    <h1 className="header-name" onClick={() => window.location.reload()} style={{ cursor: 'pointer' }}>
+                            Swapnith Varma
+                    </h1>
+
                     <p className="header-title">Software Engineer — C++ | .NET | PLM Cloud | CAD</p>
                 </div>
 

@@ -7,7 +7,7 @@ export default function Skills() {
 
                 <div className="skill">
                     <strong>Languages</strong>
-                    <div className="small">C++, C#, SQL, JS, React</div>
+                    <div className="small">C++, C#, SQL, 4GL, JS, React</div>
                 </div>
 
                 <div className="skill">
@@ -17,7 +17,7 @@ export default function Skills() {
 
                 <div className="skill">
                     <strong>Tools</strong>
-                    <div className="small">Git,SVN,JIRA,Eclipse</div>
+                    <div className="small">Git,SVN,JIRA,Eclipse,Tortoise</div>
                 </div>
 
                 <div className="skill">

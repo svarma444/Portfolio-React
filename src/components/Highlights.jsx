@@ -17,13 +17,13 @@ export default function Highlights() {
           <span>Years Experience</span>
         </div>
 
-        <div className="stat">
-          <strong>10+</strong>
+        <a href="#projects" className="stat">
+          <strong>8+</strong>
           <span>Projects Delivered</span>
-        </div>
+        </a>
 
         <div className="stat">
-          <strong>3</strong>
+          <strong>5</strong>
           <span>Tech Stacks</span>
         </div>
 
