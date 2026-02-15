@@ -29,6 +29,49 @@
   }
 }
 
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  body {
+    padding: 16px 12px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .header-name {
+    font-size: 1.8rem;
+  }
+
+  .header-title {
+    font-size: 0.9rem;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .modal>div {
+    width: 95%;
+    padding: 20px;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+}
+
+
 
 html,
 body {
