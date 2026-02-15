@@ -33,7 +33,7 @@ export default function App() {
         <main>
           <Highlights />
           <Timeline />
-          <Projects onSelect={setSelectedProject} />
+
           {selectedProject && (
             <div className="modal"
               onClick={() => { setSelectedProject(null) }}>
@@ -88,7 +88,7 @@ export default function App() {
           <Skills />
         </aside>
       </div >
-
+      <Projects onSelect={setSelectedProject} />
     </div >
   );
 }
