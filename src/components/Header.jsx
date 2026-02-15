@@ -11,7 +11,7 @@ export default function Header() {
                 <div>
                     
                     <h1 className="header-name" onClick={() => window.location.reload()} style={{ cursor: 'pointer' }}>
-                            Swapnith Varma
+                            Dandu Swapnith Varma
                     </h1>
 
                     <p className="header-title">Software Engineer — C++ | .NET | PLM Cloud | CAD</p>
