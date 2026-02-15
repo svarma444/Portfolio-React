@@ -30,7 +30,7 @@
 }
 
 /* Mobile Responsive */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   body {
     padding: 16px 12px;
   }
@@ -69,7 +69,7 @@
     max-height: 90vh;
     overflow-y: auto;
   }
-}
+} */
 
 
 
