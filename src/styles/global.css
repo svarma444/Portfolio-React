@@ -562,3 +562,36 @@ header {
   font-size: 13px;
   color: var(--muted);
 }
+
+/* Contact */
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  color: var(--muted);
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+  background: rgba(110, 231, 183, 0.05);
+  color: var(--accent);
+  transform: translateX(2px);
+}
+
+.contact-icon {
+  font-size: 18px;
+}
+
+.contact-text {
+  font-size: 13px;
+}

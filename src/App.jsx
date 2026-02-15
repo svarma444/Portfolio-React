@@ -4,6 +4,8 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Timeline from './components/Timeline';
 import Education from './components/Education';
+import Contact from './components/Contact';
+
 import { useState, useEffect } from 'react';
 
 export default function App() {
@@ -86,6 +88,7 @@ export default function App() {
         <aside>
           <Education />
           <Skills />
+          <Contact />
         </aside>
       </div >
 
