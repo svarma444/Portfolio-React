@@ -14,7 +14,8 @@ export default function Header() {
                             Swapnith Varma
                     </h1>
 
-                    <p className="header-title">Software Engineer — C++ | .NET | PLM Cloud | CAD</p>
+                    <p className="header-title">Software Engineer — CAD/PLM Integration | C# | C++</p>
+
                 </div>
 
 

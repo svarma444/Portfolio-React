@@ -4,11 +4,12 @@ export default function Highlights() {
       <h2>About</h2>
 
       <p className="bio">
-        Software Engineer specializing in C++, C#, SQL, CAD Integrations and PLM workflow engineering.
-        Experienced in system optimization, multi-threaded components, and resolving complex defects through deep
-        debugging and data-level analysis, with a strong ability to quickly grasp new requirements and adapt to
-        evolving project needs.
+        Software Developer with nearly 5 years of experience building and optimizing enterprise systems using C#, C++, SQL, and PLM integrations.
+        Strong understanding of SOLID principles and object-oriented design, focused on writing clean, scalable, and maintainable code.
+        Experienced in Agile/Scrum teams, contributing to sprint planning and requirement discussions.
+        Comfortable handling production issues through structured debugging and analysis, with a strong ability to quickly understand new requirements and adapt to evolving project needs.
       </p>
+
 
       <div className="stats">
 
@@ -49,3 +50,8 @@ export default function Highlights() {
 //     </section>
 //   );
 // }
+
+// Software Engineer specializing in C++, C#, SQL, CAD Integrations and PLM workflow engineering.
+//         Experienced in system optimization, multi-threaded components, and resolving complex defects through deep
+//         debugging and data-level analysis, with a strong ability to quickly grasp new requirements and adapt to
+//         evolving project needs.

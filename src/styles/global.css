@@ -30,7 +30,7 @@
 }
 
 /* Mobile Responsive */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   body {
     padding: 16px 12px;
   }
@@ -69,8 +69,7 @@
     max-height: 90vh;
     overflow-y: auto;
   }
-} */
-
+}
 
 
 html,
@@ -192,8 +191,10 @@ header {
   color: var(--muted);
   line-height: 1.6;
   margin: 12px 0;
+  text-align: justify;
   font-size: 14px;
 }
+
 
 .stats {
   display: grid;
