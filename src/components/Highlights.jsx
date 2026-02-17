@@ -4,7 +4,7 @@ export default function Highlights() {
       <h2>About</h2>
 
       <p className="bio">
-        Software Developer with nearly 5 years of experience building and optimizing enterprise systems using C#, C++, SQL, and PLM integrations.
+        Software Developer with nearly 5 years of experience building and optimizing enterprise systems using C#, C++, SQL in CAD-PLM integrations.
         Strong understanding of SOLID principles and object-oriented design, focused on writing clean, scalable, and maintainable code.
         Experienced in Agile/Scrum teams, contributing to sprint planning and requirement discussions.
         Comfortable handling production issues through structured debugging and analysis, with a strong ability to quickly understand new requirements and adapt to evolving project needs.
