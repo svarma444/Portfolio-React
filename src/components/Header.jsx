@@ -20,7 +20,7 @@ export default function Header() {
 
 
             </div>
-            <a className="btn download-btn" href="/resume.pdf" download>
+            <a className="btn download-btn" href="/Swapnith_Resume.pdf" download>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
                 </svg>

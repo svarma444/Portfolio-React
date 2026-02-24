@@ -1,18 +1,66 @@
+// export default function Highlights() {
+//   return (
+//     <section className="card">
+//       <h2>About</h2>
+
+//       <p className="bio">
+//         Software Developer with nearly 5 years of experience building and optimizing enterprise systems using C#, C++, SQL in CAD-PLM integrations.
+//         Strong understanding of SOLID principles and object-oriented design, focused on writing clean, scalable, and maintainable code.
+//         Experienced in Agile/Scrum teams, contributing to sprint planning and requirement discussions.
+//         Comfortable handling production issues through structured debugging and analysis, with a strong ability to quickly understand new requirements and adapt to evolving project needs.
+//       </p>
+
+
+//       <div className="stats">
+
+//         <div className="stat">
+//           <strong>5</strong>
+//           <span>Years Experience</span>
+//         </div>
+
+//         <a href="#projects" className="stat">
+//           <strong>8+</strong>
+//           <span>Projects Delivered</span>
+//         </a>
+
+//         <div className="stat">
+//           <strong>5</strong>
+//           <span>Tech Stacks</span>
+//         </div>
+
+//       </div>
+
+//     </section>
+//   );
+// }
+
 export default function Highlights() {
   return (
     <section className="card">
       <h2>About</h2>
 
       <p className="bio">
-        Software Developer with nearly 5 years of experience building and optimizing enterprise systems using C#, C++, SQL in CAD-PLM integrations.
-        Strong understanding of SOLID principles and object-oriented design, focused on writing clean, scalable, and maintainable code.
-        Experienced in Agile/Scrum teams, contributing to sprint planning and requirement discussions.
-        Comfortable handling production issues through structured debugging and analysis, with a strong ability to quickly understand new requirements and adapt to evolving project needs.
+        Software Developer with nearly 5 years of experience building and optimizing enterprise CAD-PLM
+        integration systems using C++, C#, and SQL. Strong CAD domain knowledge with hands-on experience in
+        Creo Toolkit APIs and developing shared Toolkit frameworks used across multiple CAD addins. Proficient in
+        object-oriented design and SOLID principles, with a track record of delivering significant performance
+        improvements (70–80% ). Experienced in Agile/Scrum workflows and actively upskilling in LLM internals and
+        transformer architecture, leveraging AI tools like Amazon Q daily to accelerate and optimize development.
       </p>
 
+      <div className="highlights-list">
+        {/* <h3>Key Contributions</h3> */}
+        <ul>
+          <li>Built and shipped major Creo Integration features across CAD file operations and PLM synchronization</li>
+          <li>Contributed to shared Toolkit framework enhancements used across Inventor, SolidWorks, and AutoCAD addins</li>
+          <li>Developing foundational knowledge in LLM architecture, with hands-on experience building data preprocessing pipelines and currently exploring attention mechanisms and transformer internals</li>
+          {/* <li>Resolved complex defects through in-depth debugging and root cause analysis to ensure timely customer go-lives</li> */}
+          <li>Assisted newly joined and existing team members in resolving issues and clarifying requirements, promoting
+            smoother collaboration and knowledge sharing</li>
+        </ul>
+      </div>
 
       <div className="stats">
-
         <div className="stat">
           <strong>5</strong>
           <span>Years Experience</span>
@@ -27,7 +75,6 @@ export default function Highlights() {
           <strong>5</strong>
           <span>Tech Stacks</span>
         </div>
-
       </div>
 
     </section>

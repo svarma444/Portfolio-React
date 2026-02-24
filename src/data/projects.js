@@ -34,8 +34,8 @@ export const projects = [
     title: 'Performance Optimization',
     tech: 'C#,C++, SQL, 4GL',
     description: 'Improved CAD Integration performance when saving large designs through multi-threading and optimized server-side processing.',
-    impact: 'Reduced data save time by 70–80% and improved system reliability for large-scale operations.',
-    details: 'Optimized CAD–PLM integration workflows by enhancing multi-threaded Toolkit and server-side logic. : Designed and implemented JSON-based request handling to coordinate multiple interlinked database save operations. : Used concurrency techniques including request orchestration, synchronization, and multi-threading to provide high performance, fault tolerance, and dependable large-scale data processing in Infor PLM Cloud..',
+    impact: 'Reduced data save time by 70–80% and improved system reliability, performance for large-scale operations.',
+    details: ' Optimized CAD–PLM integration save operations by enhancing Toolkit and server-side logic, achieving 70–80% faster saves while ensuring reliable and stable data processing at scale in PLM Cloud. : Designed and implemented JSON-based request handling to manage multiple interlinked database save operations and applied concurrency concepts such as multi-threading, synchronization, and request orchestration.',
     techStack: {
       languages: ['C#', 'C++', 'SQL', '4GL'],
       frameworks: [],
@@ -64,8 +64,8 @@ export const projects = [
     title: 'PTC Creo - Infor PLM Cloud Integration',
     tech: 'C++',
     description: 'Developed Multiple new features and optimized existing Creo Add-In functionalities using Toolkit APIs.',
-    impact: 'Enabled seamless integration of design variants, assemblies, and geometry data across Creo versions 8-10, supporting diverse customer functionalities in production',
-    details: 'Implemented variant-aware save workflows to manage multiple design configurations synched with generic design. :Migrated integration APIs from Creo v8 to v9+ by refactoring core functionalities and adapting to new frameworks.:Developed several integration logics to connect assembly data, geometry information, and design variants with PLM systems, while analyzing Creo-specific behavior to optimize processing for improved performance and stability.',
+    impact: 'Enabled seamless integration of design variants, assemblies, and geometry data across Creo versions 8-10, supporting diverse customer functionalities in production.',
+    details: 'Implemented variant-aware save workflows to manage multiple design configurations synched with generic design. :Migrated Creo integration from v8 to v9+ by adapting to new API structures, rewriting functionalities,and validating across CAD operations, ensuring continued compatibility for enterprise customers:Developed top-level download functionality that replicates the full item hierarchy defined in PLM into Creo as a structured assembly, triggered by a single item ID.:Implemented Insert-Replace functionality enabling users to swap an existing component in a Creo assembly with a different one fetched from PLM, maintaining assembly structure and relationships:Developed several integration logics to connect assembly data, geometry information, and design variants with PLM systems, while analyzing Creo-specific behavior to optimize processing for improved performance and stability.',
     techStack: {
       languages: ['C++'],
       frameworks: [],
