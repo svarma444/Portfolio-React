@@ -40,7 +40,7 @@ export default function Highlights() {
       <h2>About</h2>
 
       <p className="bio">
-        Software Developer with nearly 5 years of experience building and optimizing enterprise CAD-PLM
+        Software Developer with 5 years of experience building and optimizing enterprise CAD-PLM
         integration systems using C++, C#, and SQL. Strong CAD domain knowledge with hands-on experience in
         Creo Toolkit APIs and developing shared Toolkit frameworks used across multiple CAD addins. Proficient in
         object-oriented design and SOLID principles, with a track record of delivering significant performance
